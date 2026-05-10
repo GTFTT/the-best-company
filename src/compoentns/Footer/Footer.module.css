@@ -1,0 +1,16 @@
+.footer {
+  height: 30vh;
+  color: white;
+  background-color: #406773;
+  font-weight: normal;
+}
+
+.row {
+  padding: 1rem 5rem;
+}
+
+.row:last-child {
+  display: flex;
+  justify-content: end;
+  padding: 1rem 5rem;
+}

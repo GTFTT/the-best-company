@@ -3,9 +3,7 @@
   background-position: center;
   background-size: cover;
   width: 40vw;
-  height: 15rem;
-  border-radius: 12px;
-  overflow: hidden;
+  height: 12rem;
 }
 
 .backgroundImage {
@@ -19,7 +17,7 @@
 }
 
 .block {
-  padding: 2rem;
+  padding: 4rem 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
