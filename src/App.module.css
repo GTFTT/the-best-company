@@ -1,5 +1,5 @@
 .app {
-  background-color: #FFEDAD;
+  background: linear-gradient(135deg, #FFEDAD 0%, #FFB563 100%);
   color: black;
   font-weight: 600;
   min-height: 100vh;
