@@ -14,16 +14,23 @@ html {
   font-size: 16px;
 }
 
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 20px;
+  }
+}
+
 /* Tablets / small laptops */
 @media (max-width: 768px) {
   html {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 
 /* Phones */
 @media (max-width: 480px) {
   html {
-    font-size: 8px;
+    font-size: 6px;
   }
 }
