@@ -1,0 +1,30 @@
+.container {
+  width: stretch;
+  color: white;
+  padding: 1rem 0 5rem 0;
+}
+
+.headerBackgroundImage {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.textContainer {
+  width: stretch;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  width: 1rem;
+  height: 1rem;
+}
+
+.companyName {
+  font-weight: bold;
+}
