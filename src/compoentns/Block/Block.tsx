@@ -4,6 +4,8 @@ import block1 from "./../../assets/block1.svg"
 import block2 from "./../../assets/block2.svg"
 import block3 from "./../../assets/block3.svg"
 import block4 from "./../../assets/block4.svg"
+import block5 from "./../../assets/block5.svg"
+import block6 from "./../../assets/block6.svg"
 import type {ReactNode} from "react";
 
 export interface BlockProps {
@@ -15,21 +17,29 @@ function Block({ children, blockBackgroundType }: BlockProps) {
   let backgroundImage;
   let blockClassName;
   switch (blockBackgroundType) {
-    case BlockType.BLOCK_LR_TB:
+    case BlockType.BLOCK1_LR_TB:
       backgroundImage = block1;
       blockClassName = styles.block1;
       break;
-    case BlockType.BLOCK_RL_BT:
+    case BlockType.BLOCK2_RL_BT:
       backgroundImage = block2;
       blockClassName = styles.block2;
       break;
-    case BlockType.BLOCK_LR_BT:
+    case BlockType.BLOCK3_LR_BT:
       backgroundImage = block3;
       blockClassName = styles.block3;
       break;
-    case BlockType.BLOCK_RL_TB:
+    case BlockType.BLOCK4_RL_TB:
       backgroundImage = block4;
       blockClassName = styles.block4;
+      break;
+    case BlockType.BLOCK5_LR_TB:
+      backgroundImage = block5;
+      blockClassName = styles.block5;
+      break;
+    case BlockType.BLOCK6_RL_BT:
+      backgroundImage = block6;
+      blockClassName = styles.block6;
       break;
     default:
       throw new Error(`Unknown block background type: ${BlockType[blockBackgroundType]}`);
