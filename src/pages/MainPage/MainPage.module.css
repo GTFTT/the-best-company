@@ -1,0 +1,11 @@
+.container {
+  padding: 2rem 5rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 2rem;
+  justify-content: space-around;
+}

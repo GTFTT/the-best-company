@@ -1,0 +1,43 @@
+.container {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 40vw;
+  height: 30vh;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.backgroundImage {
+  position: absolute;
+  width: 40vw;
+}
+
+.contentContainer {
+  position: relative;
+  top: 0;
+}
+
+.block {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: stretch;
+}
+
+.block1 {
+  padding-right: 10rem;
+}
+
+.block2 {
+  padding-left: 10rem;
+}
+
+.block3 {
+  padding-right: 10rem;
+}
+
+.block4 {
+  padding-left: 10rem;
+}
