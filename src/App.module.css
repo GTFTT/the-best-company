@@ -1,4 +1,7 @@
 .app {
+  background-color: #FFEDAD;
+  color: black;
+  font-weight: 600;
   min-height: 100vh;
   padding: 0;
   margin: 0;
